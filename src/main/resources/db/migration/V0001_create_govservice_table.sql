@@ -1,0 +1,8 @@
+CREATE TABLE government_services (
+     id SERIAL PRIMARY KEY,
+     name_ru VARCHAR(255) NOT NULL,
+     name_kz VARCHAR(255) NOT NULL,
+     is_deleted BOOLEAN DEFAULT FALSE,
+     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
