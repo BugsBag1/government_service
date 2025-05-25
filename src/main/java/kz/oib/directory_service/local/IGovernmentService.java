@@ -1,8 +1,7 @@
-package kz.oib.government_service.local;
+package kz.oib.directory_service.local;
 
-import kz.oib.government_service.model.dto.GovernmentServiceRequestDTO;
-import kz.oib.government_service.model.dto.GovernmentServiceResponseDTO;
-import kz.oib.government_service.model.entity.GovernmentEntity;
+import kz.oib.directory_service.model.dto.GovernmentServiceRequestDTO;
+import kz.oib.directory_service.model.dto.GovernmentServiceResponseDTO;
 
 import java.util.List;
 

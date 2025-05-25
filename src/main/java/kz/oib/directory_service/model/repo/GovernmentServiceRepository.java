@@ -1,6 +1,6 @@
-package kz.oib.government_service.model.repo;
+package kz.oib.directory_service.model.repo;
 
-import kz.oib.government_service.model.entity.GovernmentEntity;
+import kz.oib.directory_service.model.entity.GovernmentEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

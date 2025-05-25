@@ -1,10 +1,10 @@
-package kz.oib.government_service.service;
+package kz.oib.directory_service.service;
 
-import kz.oib.government_service.local.IGovernmentService;
-import kz.oib.government_service.model.dto.GovernmentServiceRequestDTO;
-import kz.oib.government_service.model.dto.GovernmentServiceResponseDTO;
-import kz.oib.government_service.model.entity.GovernmentEntity;
-import kz.oib.government_service.model.repo.GovernmentServiceRepository;
+import kz.oib.directory_service.local.IGovernmentService;
+import kz.oib.directory_service.model.dto.GovernmentServiceRequestDTO;
+import kz.oib.directory_service.model.dto.GovernmentServiceResponseDTO;
+import kz.oib.directory_service.model.entity.GovernmentEntity;
+import kz.oib.directory_service.model.repo.GovernmentServiceRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

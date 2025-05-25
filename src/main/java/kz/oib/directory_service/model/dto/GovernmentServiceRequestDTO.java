@@ -1,4 +1,4 @@
-package kz.oib.government_service.model.dto;
+package kz.oib.directory_service.model.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;

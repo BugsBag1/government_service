@@ -11,7 +11,7 @@
 	<groupId>kz.oib</groupId>
 	<artifactId>government_service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>government_service</name>
+	<name>directory_service</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: government_service
+    name: directory_service
   datasource:
     url: jdbc:postgresql://localhost:5433/oib_government_service
     username: postgres

@@ -1,0 +1,16 @@
+package kz.oib.directory_service.model.dto;
+
+import jakarta.validation.constraints.NotBlank;
+import lombok.Data;
+
+@Data
+public class ModuleRequestDTO {
+    @NotBlank(message = "Название на русском обязателен")
+    private String nameRu;
+    @NotBlank(message = "Название на казахском обязательно")
+    private String nameKz;
+    @NotBlank(message = "Описание на русском обязателен")
+    private String descriptionRu;
+    @NotBlank(message = "Описание на казахском обязателен")
+    private String descriptionKz;
+}
